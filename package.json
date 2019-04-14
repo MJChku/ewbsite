@@ -36,6 +36,7 @@
     "portfolio"
   ],
   "scripts": {
+    "heroku-postbuild": "gatsby build",
     "dev": "gatsby develop -o",
     "develop": "gatsby develop",
     "build": "gatsby build",
