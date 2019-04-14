@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-portfolio-cara",
-  "description": "Playful & Colorful One-Page website with Parallax effect powered by react-spring, TailwindCSS.",
-  "version": "3.0.0",
-  "author": "LekoArts <hello@lekoarts.de> (https://www.lekoarts.de)",
+  "name": "EWB",
+  "description": "Official websites for educationwithoutbarriers",
+  "version": "1.0.0",
+  "author": "ewb AC Department of Technology, American chapter",
   "license": "MIT",
   "dependencies": {
     "@material-ui/core": "^3.9.3",
@@ -36,7 +36,6 @@
     "portfolio"
   ],
   "scripts": {
-    "heroku-postbuild": "gatsby build",
     "start": "gatsby serve",
     "dev": "gatsby develop -o",
     "develop": "gatsby develop",
