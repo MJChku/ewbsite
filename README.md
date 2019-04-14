@@ -34,4 +34,4 @@ to open the project.
   [netfily](https://www.netlify.com/) fits our purpose quite well! 
   
   
-### Cheers! Welcome !!
+### Cheers!!
