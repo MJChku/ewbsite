@@ -96,10 +96,10 @@ const BillboardVideo = styled.video.attrs({
 `;
 
 const Main = styled.main`
-  max-width: 960px;
-  margin: 60px auto;
-  min-height: 70vh;
-  padding: 100px 5% 80px;
+  //max-width: 960px;
+  margin: 50px auto;
+  //min-height: 70vh;
+  //padding: 100px 5% 80px;
 `;
 
 const MainWrapper = styled.div`

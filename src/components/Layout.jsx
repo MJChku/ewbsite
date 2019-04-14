@@ -28,7 +28,7 @@ const Layout = ({location, children}) => (
             <Helmet title="EWB"/>
             <SiteHeader>
                 <Link to="/">
-                    <Logo page={location.pathname.replace('/', '')}>EWB</Logo>
+                    <Logo >EWB</Logo>
                     <Name> Education Without Barriers</Name>
                 </Link>
                 <SiteNav>
@@ -54,9 +54,10 @@ const Layout = ({location, children}) => (
             <Main>{children}</Main>
 
         </div>
-        <Footer/>
+       
     </>
 );
 
 export default Layout
 
+//page={location.pathname.replace('/', '')}

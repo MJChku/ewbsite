@@ -1,6 +1,6 @@
 import React from 'react';
-import { Transition } from 'react-spring';
-
+//import { Transition } from 'react-spring';
+import { Transition } from 'react-spring/renderprops-addons.cjs'
 import './styles.css';
 import { BillboardVideo }  from './Headings';
 
