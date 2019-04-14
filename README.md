@@ -14,6 +14,7 @@ to open the project.
 ### Usage
   to initialize the project 
 >yarn install
+  
   To start to project
 >yarn develop
 
@@ -30,7 +31,7 @@ to open the project.
   Not sure if we are using this but nevertheless, for your interest it's [Graphql tutorial](https://graphql.org/learn/).
 
 ### Free Server
-  [netfily] (https://www.netlify.com/) fits our purpose quite well! 
+  [netfily](https://www.netlify.com/) fits our purpose quite well! 
   
   
 ### Cheers! Welcome !!
