@@ -37,6 +37,7 @@
   ],
   "scripts": {
     "heroku-postbuild": "gatsby build",
+    "start": "gatsby serve",
     "dev": "gatsby develop -o",
     "develop": "gatsby develop",
     "build": "gatsby build",
