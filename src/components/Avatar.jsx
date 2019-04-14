@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles/index';
 import Avatar from '@material-ui/core/Avatar/index';
 import Grid from '@material-ui/core/Grid/index';
-import img from "../../static/images/avatar/test.jpeg";
 const styles = {
     avatar: {
     margin: 10,
