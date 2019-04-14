@@ -57,7 +57,7 @@ const ContactText = styled.p`
   ${tw`text-grey-light font-sans text-xl md:text-2xl lg:text-3xl`};
 `
 
-const template = () => (
+const index = () => (
     <>
       <Layout />
       <Parallax pages={5}>
@@ -117,4 +117,4 @@ const template = () => (
     </>
 )
 
-
+export default index

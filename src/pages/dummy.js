@@ -1,11 +1,13 @@
-import React from 'react'
+import React, {Component} from 'react';
 
+class Dummy extends Component {
+    render() {
+        return (
+            <div>
 
-const dummyPage = ({ data }) => (
-    <div>
-        <p>hello</p>
-    </div>
-)
+            </div>
+        );
+    }
+}
 
-
-export default dummyPage
+export default Dummy;
