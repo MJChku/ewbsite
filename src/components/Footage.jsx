@@ -10,7 +10,7 @@ const Footer = styled.footer`
 
 const Footage = (props) =>(
 <Footer>
-    &copy; 2019 by education without barriers.{' '}
+    <p style={{position: center}}>&copy; 2019 by education without barriers.{' '}</p>
     <a href="https://github.com/MJChku/ewbsite.git">Github Repository</a>. Made by{'AC DT EWB'}
     <a href="">EWB</a>.
 </Footer>
