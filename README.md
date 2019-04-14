@@ -1,6 +1,5 @@
 # Ewbsite
-![alt text][logo]
-[logo]: https://github.com/MJChku/ewbsite/blob/master/static/images/avatar/avatar.png "Logo"
+![alt text](https://github.com/MJChku/ewbsite/blob/master/static/images/avatar/avatar.png "Logo")
 
 Static Website for education without barriers
 
