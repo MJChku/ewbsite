@@ -9,14 +9,10 @@ original website [Original website on squarespace](https://educationwithoutbarri
 
 ---
 clone on your local file system. Recommand [webstorm](https://www.jetbrains.com/webstorm/) or [VScode](https://code.visualstudio.com/)
-
 to open the project.
 
-<h> to start the project </h>
-
->yarn install
-
->yarn develop
+  <h> to initialize the project </h>  >yarn install
+  To start to project                 >yarn develop
 
 <h>for version control, please create a new branch for each feature.</h>
 
