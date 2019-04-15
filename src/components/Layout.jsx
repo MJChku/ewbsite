@@ -39,7 +39,7 @@ const Layout = ({location, children}) => (
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink underline="#e74c3c" to="/">
+                            <NavLink underline="#e74c3c" to="/abcmusic">
                                 Projects
                             </NavLink>
                         </li>
