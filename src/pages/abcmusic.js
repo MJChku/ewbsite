@@ -6,13 +6,16 @@ import notation from '../components/ABCdata';
 
 const id = 'react-abc-editor-id';
 
+
 export default class ABCcomposer extends React.Component {
 
     state = {
         value: notation
     }
+
+
     handleChange = (event) => {
-        this.setState({value: event.target.value});
+        this.setState({value: event.target.value})
     }
     render() {
         return (

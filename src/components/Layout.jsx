@@ -28,7 +28,7 @@ const Layout = ({location, children}) => (
             <Helmet title="EWB"/>
             <SiteHeader>
                 <Link to="/">
-                    <Logo >EWB</Logo>
+                    <Logo >EeWwBb</Logo>
                     <Name> Education Without Barriers</Name>
                 </Link>
                 <SiteNav>
