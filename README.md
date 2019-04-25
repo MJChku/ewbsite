@@ -34,4 +34,5 @@ to open the project.
   [netfily](https://www.netlify.com/) fits our purpose quite well! 
   
   
-### Cheers!!
+### Animation:
+[react spring](https://reactgo.com/react-animation-tutorial-examples/)
