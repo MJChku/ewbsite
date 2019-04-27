@@ -53,6 +53,19 @@ const SiteNav = styled.nav`
     padding: 0;
     margin: 0;
     display: flex;
+    width: 100%;
+    > li {
+      margin: 0;
+    }
+  }
+`;
+
+const DropDown = styled.nav`
+  > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
     > li {
       margin: 0;
     }
@@ -177,8 +190,27 @@ const Name = styled.h1`
   ${media.tablet`display: block;`};
 `;
 
+const NavLinkSecond = styled(Link)`
+  text-decoration: none;
+  text-align: center;
+  color: #87CEFA;
+  font-size: 12px;
+  padding: 15px 10px 18px;
+  font-weight: 900;
+  //text-transform: uppercase;
+  letter-spacing: 4px;
+  display: block;
+  transition: all 0.3s ease;
+  ${media.tablet`
+    font-size: 16px;
+    padding: 15px 20px 18px;
+  `} &:hover {
+    border-bottom: 4px solid ${props => props.underline};
+  }
+`;
+
 
 
 export {
-  SiteTitle, Title, SiteHeader, SubHeader, NavLink, BillboardVideo, SiteNav, MainWrapper, Main, Logo, Name,
+  NavLinkSecond,DropDown,SiteTitle, Title, SiteHeader, SubHeader, NavLink, BillboardVideo, SiteNav, MainWrapper, Main, Logo, Name,
 };

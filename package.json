@@ -6,6 +6,7 @@
   "license": "MIT",
   "dependencies": {
     "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
     "babel-plugin-styled-components": "^1.10.0",
     "create-react-context": "^0.2.3",
     "eslint-config-react-app": "^3.0.8",

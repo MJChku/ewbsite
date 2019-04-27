@@ -1,7 +1,9 @@
 import React from 'react';
+
 import {
-  SiteHeader, SiteNav, NavLink, Logo, Name, Main,
+  NavLink,DropDown,NavLinkSecond
 } from './Headings';
+
 class Navhead extends React.Component {
 
     state = {
@@ -20,18 +22,19 @@ class Navhead extends React.Component {
     const children = this.props.children
     const open = this.state.Open
     return (
-      <div onMouseOver={this.onMouseEnter} onMouseLeave={this.onMouseLeave}>
-        <NavLink >Aboutus</NavLink>
-        <div>
+      <div  onMouseOver={this.onMouseEnter} onMouseLeave={this.onMouseLeave}>
+        <NavLink >{children.head}</NavLink>
+          <div>
           {  open
              &&
-             children.map((child) => (
-              <NavLink underline="#16a085" to={{ child }}>
-                {child}
-              </NavLink>
+             children.sub.map((child) => (
+              <NavLinkSecond underline="#16a085" to={ child.link }>
+                {child.name}
+              </NavLinkSecond>
             ))
           }
-        </div>
+          </div>
+
       </div>
     );
   }

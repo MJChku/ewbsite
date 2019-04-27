@@ -20,11 +20,15 @@ import {
 //     <GlobalStyle />
 //   </>
 // )
-const aboutus = ["mission","program"]
+const aboutus = {
+  head:"aboutus",
+  sub:[{name:"mission",link:"/aboutus"},
+    {name:"program", link:"/aboutus"}]}
+
+
 
 const Layout = ({location, children}) => (
-    <>
-        <div>
+        <>
             <Helmet title="EWB"/>
             <SiteHeader>
                 <Link to="/">
@@ -33,12 +37,8 @@ const Layout = ({location, children}) => (
                 </Link>
                 <SiteNav>
                     <ul>
-                      <li>
-                          <Navhead >{aboutus}</Navhead>
-                      </li>
                         <li>
-                            <NavLink underline="#16a085" to="/aboutus">
-                            </NavLink>
+                            <Navhead>{aboutus}</Navhead>
                         </li>
                         <li>
                             <NavLink underline="#e74c3c" to="/abcmusic">
@@ -54,10 +54,8 @@ const Layout = ({location, children}) => (
                 </SiteNav>
             </SiteHeader>
             <Main>{children}</Main>
+        </>
 
-        </div>
-       
-    </>
 );
 
 export default Layout
