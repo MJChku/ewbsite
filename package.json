@@ -30,6 +30,7 @@
     "react-lifecycles-compat": "^3.0.4",
     "react-spring": "^8.0.19",
     "react-typography": "^0.16.13",
+    "reactstrap": "^8.0.0",
     "styled-components": "^4.2.0",
     "tailwind.macro": "^0.5.10",
     "tailwindcss": "^0.7.4",

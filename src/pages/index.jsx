@@ -21,7 +21,6 @@ export default class Index extends Component {
   render() {
     return (
         <>
-
         <Layout {...this.props}>
           <MainWrapper>
               <Main>

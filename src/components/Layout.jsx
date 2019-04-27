@@ -7,7 +7,7 @@ import {Link} from 'gatsby';
 import Helmet from 'react-helmet';
 import 'typeface-lato';
 import 'typeface-inconsolata';
-
+import Navhead from './Dropdown';
 import './styles.css';
 import Footer from './Footer';
 import {
@@ -20,7 +20,7 @@ import {
 //     <GlobalStyle />
 //   </>
 // )
-
+const aboutus = ["mission","program"]
 
 const Layout = ({location, children}) => (
     <>
@@ -28,14 +28,16 @@ const Layout = ({location, children}) => (
             <Helmet title="EWB"/>
             <SiteHeader>
                 <Link to="/">
-                    <Logo >EeWwBb</Logo>
+                    <Logo >EWB</Logo>
                     <Name> Education Without Barriers</Name>
                 </Link>
                 <SiteNav>
                     <ul>
+                      <li>
+                          <Navhead >{aboutus}</Navhead>
+                      </li>
                         <li>
                             <NavLink underline="#16a085" to="/aboutus">
-                                AboutUs
                             </NavLink>
                         </li>
                         <li>
