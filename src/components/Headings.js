@@ -36,6 +36,7 @@ const SiteHeader = styled.header`
       transition: 0.3s all cubic-bezier(0.165, 0.84, 0.44, 1);
     }
   }
+  
 `;
 
 const SubHeader = styled.h3`
@@ -149,7 +150,7 @@ const Logo = styled.span`
     z-index: -1;
     transform: translate3d(
       ${(props) => {
-    if (props.page === 'about') return '0px';
+    if (props.page === 'aboutus') return '100px';
     if (props.page === 'projects') return '-52px';
     if (props.page === 'contact') return '-104px';
     return '52px';
@@ -195,16 +196,17 @@ const NavLinkSecond = styled(Link)`
   text-align: center;
   color: #87CEFA;
   font-size: 12px;
-  padding: 15px 10px 18px;
+  //padding: 15px 10px 18px;
   font-weight: 900;
-  //text-transform: uppercase;
+  text-transform: uppercase;
   letter-spacing: 4px;
   display: block;
   transition: all 0.3s ease;
   ${media.tablet`
     font-size: 16px;
-    padding: 15px 20px 18px;
-  `} &:hover {
+    padding: 5px 5px 5px;
+  `}
+   &:hover {
     border-bottom: 4px solid ${props => props.underline};
   }
 `;

@@ -2,16 +2,16 @@ import React from 'react'
 import styled from 'styled-components'
 import tw from 'tailwind.macro'
 import { Parallax } from 'react-spring/renderprops-addons.cjs'
-import Layout from '../components/Layout'
-import ProjectCard from '../components/ProjectCard'
-import { Title, BigTitle, Subtitle } from '../elements/Titles'
-import Hero from '../views/Hero'
-import Projects from '../views/Projects'
-import About from '../views/About'
-import chairs from '../../static/leaderBoard/chairs/chairs'
+import Layout from '../../components/Layout'
+import ProjectCard from '../../components/ProjectCard'
+import { Title, BigTitle, Subtitle } from '../../elements/Titles'
+import Hero from '../../views/Hero'
+import Projects from '../../views/Projects'
+import About from '../../views/About'
+import chairs from '../../../static/leaderBoard/chairs/chairs'
 
-import avatar from '../../static/images/avatar/avatar.png'
-import testAvatar from "../../static/images/avatar/test.jpeg"
+import avatar from '../../../static/images/avatar/avatar.png'
+import testAvatar from "../../../static/images/avatar/test.jpeg"
 
 const ProjectsWrapper = styled.div`
   ${tw`flex flex-wrap justify-between mt-8`};
@@ -53,7 +53,7 @@ const Main = styled.main`
   padding: 100px 5% 80px;
 `
 
-export default class Aboutus extends React.Component {
+export default class Team extends React.Component {
     render() {
         return (
             <Layout {...this.props}>

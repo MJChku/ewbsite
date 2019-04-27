@@ -21,9 +21,10 @@ class Navhead extends React.Component {
   render() {
     const children = this.props.children
     const open = this.state.Open
+    const color = this.props.children.underline
     return (
       <div  onMouseOver={this.onMouseEnter} onMouseLeave={this.onMouseLeave}>
-        <NavLink >{children.head}</NavLink>
+        <NavLink underline={color} to={ children.head.link }>{children.head.name}</NavLink>
           <div>
           {  open
              &&
