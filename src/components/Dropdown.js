@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {
-  NavLink,DropDown,NavLinkSecond
+  NavLink,NavLinkSecond
 } from './Headings';
 
 class Navhead extends React.Component {
@@ -35,7 +35,6 @@ class Navhead extends React.Component {
             ))
           }
           </div>
-
       </div>
     );
   }

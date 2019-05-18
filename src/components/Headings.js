@@ -27,7 +27,7 @@ const SiteHeader = styled.header`
   display: flex;
   justify-content: space-between;
   position: fixed;
-  flex-wrap: wrap;
+ // flex-wrap: wrap;
   top: 0;
   width: 100%;
   &:hover {
@@ -87,7 +87,8 @@ const NavLink = styled(Link)`
     font-size: 16px;
     padding: 15px 20px 18px;
   `} &:hover {
-    border-bottom: 4px solid ${props => props.underline};
+    //border-bottom: 4px solid ${props => props.underline};
+    color: blue
   }
 `;
 
@@ -192,6 +193,7 @@ const Name = styled.h1`
 `;
 
 const NavLinkSecond = styled(Link)`
+ background: black;
   text-decoration: none;
   text-align: center;
   color: #87CEFA;
@@ -207,12 +209,13 @@ const NavLinkSecond = styled(Link)`
     padding: 5px 5px 5px;
   `}
    &:hover {
-    border-bottom: 4px solid ${props => props.underline};
+    color: white;
+    //border-bottom: 4px solid ${props => props.underline};
   }
 `;
 
 
 
 export {
-  NavLinkSecond,DropDown,SiteTitle, Title, SiteHeader, SubHeader, NavLink, BillboardVideo, SiteNav, MainWrapper, Main, Logo, Name,
+  NavLinkSecond,SiteTitle, Title, SiteHeader, SubHeader, NavLink, BillboardVideo, SiteNav, MainWrapper, Main, Logo, Name,
 };
