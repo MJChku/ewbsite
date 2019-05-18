@@ -46,7 +46,7 @@ const Main = styled.main`
 export default class Team extends React.Component {
   render() {
     return (
-      <Layout {...this.props}>
+      <Layout {...this.props} >
         <Block img={img}>
           <Title style={{ textAlign: "center" }}> TEAM STRUCTURE: </Title>
           <div style={{ paddingLeft: '20%' }}>

@@ -21,36 +21,50 @@ import {
 
 import { navigation } from "../../static/data/navigation";
 
-const Layout = ({ location, children }) => {
-  const page = location.pathname.replace("/", "");
-  return (
-    <>
-      <Helmet title="EWB"/>
-      <SiteHeader>
-        <Link to="/">
-          <Logo>EWB</Logo>
-          <Name> {page === "" ? "Education Without Barriers" : page}</Name>
-        </Link>
-        <SiteNav>
-          <ul>
-            {navigation.notmore.map((page) => (
-              <li>
-                <Navhead>{page}</Navhead>
-              </li>
-            ))}
-            <More>
-              {navigation.more}
-            </More>
-          </ul>
+class Layout extends React.Component{
+  constructor(props) {
+    super(props);
+    this.state = {page: null};
+  }
+  componentDidMount()
+  {
+    if (typeof window === 'undefined') {
+      return;
+    }
+    this.setState(() => ({ page: this.props.location.pathname.replace("/", "") }));
+  }
 
-        </SiteNav>
+  render() {
+    const  children  = this.props.children;
+    const page = this.state.page;
+    return (
+      <>
+        <Helmet title="EWB"/>
+        <SiteHeader>
+          <Link to="/">
+            <Logo>EWB</Logo>
+            <Name> {page === "" ? "Education Without Barriers" : page}</Name>
+          </Link>
+          <SiteNav>
+            <ul>
+              {navigation.notmore.map((page) => (
+                <li>
+                  <Navhead>{page}</Navhead>
+                </li>
+              ))}
+              <More>
+                {navigation.more}
+              </More>
+            </ul>
 
-      </SiteHeader>
-      <Main>{children}</Main>
-    </>
+          </SiteNav>
 
-  );
+        </SiteHeader>
+        <Main>{children}</Main>
+      </>
+
+    );
+  }
 };
 
 export default Layout;
-
