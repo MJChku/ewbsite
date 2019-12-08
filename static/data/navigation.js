@@ -6,21 +6,21 @@ const navigation =
       //   head: { name: "news", link: "/news" },
       //   sub: []
       // },
-      {
-        underline: "#AF3232",
-        head: { name: "ME", link: "/me/study" },
-        sub: [
-          {
-            name: "study", link: "/me/study"
-          },
-          {
-            name: "mission", link: "/me/mission"
-          },
-          {
-            name: "work experience", link:"/me/experience"
-          }
-        ]
-      },
+      // {
+      //   underline: "#AF3232",
+      //   head: { name: "ME", link: "/me/study" },
+      //   sub: [
+      //     {
+      //       name: "study", link: "/me/study"
+      //     },
+      //     {
+      //       name: "mission", link: "/me/mission"
+      //     },
+      //     {
+      //       name: "work experience", link:"/me/experience"
+      //     }
+      //   ]
+      // },
       {
         underline: "##FFD700",
         head: { name: "Resume", link: "/resume" },
