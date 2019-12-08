@@ -8,7 +8,7 @@ import { SiteTitle, MainWrapper } from '../components/Headings';
 import Footer from '../components/Footer';
 import Fire from '../firebase/sndLayout'
 import Firefetch from '../firebase/FetchingExample'
-import background from "../../static/images/team.jpg"
+import background from "../../static/images/team/team.jpg";
 const Main = styled.main`
   max-width: 960px;
   margin: 50px auto;
