@@ -8,7 +8,7 @@ const navigation =
       // },
       {
         underline: "#AF3232",
-        head: { name: "ME", link: "/me" },
+        head: { name: "ME", link: "/me/study" },
         sub: [
           {
             name: "study", link: "/me/study"

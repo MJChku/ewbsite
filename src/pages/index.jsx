@@ -8,6 +8,7 @@ import { SiteTitle, MainWrapper } from '../components/Headings';
 import Footer from '../components/Footer';
 import Fire from '../firebase/sndLayout'
 import Firefetch from '../firebase/FetchingExample'
+import background from "../../static/images/team.jpg"
 const Main = styled.main`
   max-width: 960px;
   margin: 50px auto;
@@ -22,13 +23,13 @@ export default class Index extends Component {
     return (
         <>
         <Layout {...this.props}>
-          <MainWrapper>
+          <MainWrapper img={background}>
               <Main>
-            <SiteTitle>Born in 1997, Boy, Cool hacker</SiteTitle>
+            <SiteTitle>Born in 1997, Boy, Cool, Hacker</SiteTitle>
               </Main>
           </MainWrapper>
         </Layout>
-        <Footer/>
+        {/* <Footer/> */}
         </>
 
     );
