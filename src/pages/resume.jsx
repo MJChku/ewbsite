@@ -1,6 +1,6 @@
 import React ,{ Component } from 'react'
 import styled from 'styled-components'
-
+import Resume from '../../static/me/resume.pdf'
 import { Parallax } from 'react-spring/renderprops-addons.cjs'
 // Components
 import Layout from '../components/Layout'
@@ -23,12 +23,12 @@ export default class Index extends Component {
           <MainWrapper>
               <Main>
             <SiteTitle >Down my resume here</SiteTitle>
-            <a href="../me/resume.pdf" download>Click to download</a>
+            <a href={Resume} download>Click to download</a>
             
               </Main>
           </MainWrapper>
         </Layout>
-        <Footer/>
+        {/* <Footer/> */}
         </>
 
     );
