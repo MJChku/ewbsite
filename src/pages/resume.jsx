@@ -6,7 +6,6 @@ import { Parallax } from 'react-spring/renderprops-addons.cjs'
 import Layout from '../components/Layout'
 import { SiteTitle, MainWrapper } from '../components/Headings';
 import Footer from '../components/Footer';
-import Resume from '../../static/me/resume.pdf'
 const Main = styled.main`
   max-width: 960px;
   margin: 50px auto;
