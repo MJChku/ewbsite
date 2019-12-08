@@ -15,6 +15,9 @@ const Main = styled.main`
   min-height: 70vh;
   padding: 100px 5% 80px;
 `
+const back = styled.div`
+backgroundImage: ${background}
+`
 
 export default class Index extends Component {
 
@@ -23,12 +26,15 @@ export default class Index extends Component {
     return (
         <>
         <Layout {...this.props}>
+          <back>
           <MainWrapper img={background}>
               <Main>
             <SiteTitle>Born in 1997, Actuary, Hacker, Defender, Gamer, Youtuber a.k.a Peace lover.</SiteTitle>
               </Main>
           </MainWrapper>
+          </back>
         </Layout>
+        
         {/* <Footer/> */}
         </>
 
