@@ -52,7 +52,6 @@ class Layout extends React.Component{
                   <Navhead>{page}</Navhead>
                 </li>
               ))}
-             <Link to="../../static/me/resume.pdf" target="_blank" download>Resume</Link>
             </ul>
 
           </SiteNav>
