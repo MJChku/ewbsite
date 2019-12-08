@@ -43,7 +43,7 @@ class Layout extends React.Component{
         <SiteHeader>
           <Link to="/">
             <Logo>MJC</Logo>
-            <Name> {page === "" ? "Ma Jiacheng" : page}</Name>
+            <Name> {page === "" ? "Hello World! My name is Ma Jiacheng" : page}</Name>
           </Link>
           <SiteNav>
             <ul>
