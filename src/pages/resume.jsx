@@ -24,7 +24,7 @@ export default class Index extends Component {
           <MainWrapper>
               <Main>
             <SiteTitle >Down my resume here</SiteTitle>
-            <a href="../../static/me/resume.pdf" download>Click to download</a>
+            <a href="../me/resume.pdf" download>Click to download</a>
               </Main>
           </MainWrapper>
         </Layout>
