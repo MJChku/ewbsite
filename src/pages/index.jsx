@@ -16,7 +16,7 @@ const Main = styled.main`
   padding: 100px 5% 80px;
 `
 const back = styled.div`
-backgroundImage: ${background}
+backgroundImage: url(${background});
 `
 
 export default class Index extends Component {
