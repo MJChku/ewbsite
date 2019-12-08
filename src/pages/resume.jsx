@@ -22,7 +22,7 @@ export default class Index extends Component {
         <Layout {...this.props}>
           <MainWrapper>
               <Main>
-            <SiteTitle >Down my resume here</SiteTitle>
+            <SiteTitle >Download my resume here</SiteTitle>
             <a href={Resume} download>Click to download</a>
             
               </Main>

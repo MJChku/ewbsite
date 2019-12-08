@@ -48,36 +48,13 @@ export default class Team extends React.Component {
     return (
       <Layout {...this.props} >
         <Block img={img}>
-          <Title style={{ textAlign: "center" }}> TEAM STRUCTURE: </Title>
+          <Title style={{ textAlign: "center" }}> Study </Title>
           <div style={{ paddingLeft: '20%' }}>
             <Text style={{ position: 'center'}}>
-              According to Education without Barriers (EWB)’s Constitution, the Board of Directors (“the Board”) shall
-              be its highest authority. Being appointed by the Board, Secretaries of American Chapter, Hong Kong
-              Chapter, and India Chapter shall exercise on the Board’s behalf the power to govern EWB’s relevant
-              functioning Divisions and their Heads in that Chapter, respectively. Steering Committee shall represent
-              the Cofounders, Volunteers, Donators and other stakeholders’ interests in exercising its power to
-              supervise the Board’s behaviors and Advisors shall help the Board shape its decisions.
+             
             </Text>
           </div>
         </Block>
-
-        <ProjectsWrapper>
-          {
-            chairs.map((chair) => (
-              <ProfileCard
-                id={chair.id}
-                image={testAvatar}
-                title={chair.title}
-                bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
-                details={chair.details}
-              >
-                {chair.content}
-              </ProfileCard>)
-            )
-          }
-
-        </ProjectsWrapper>
-
       </Layout>
     );
   }

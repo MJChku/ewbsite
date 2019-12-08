@@ -25,7 +25,7 @@ export default class Index extends Component {
         <Layout {...this.props}>
           <MainWrapper img={background}>
               <Main>
-            <SiteTitle>Born in 1997, Boy, Cool, Hacker</SiteTitle>
+            <SiteTitle>Born in 1997, Actuary, Hacker, Defender, Gamer, Youtuber a.k.a Peace lover.</SiteTitle>
               </Main>
           </MainWrapper>
         </Layout>
