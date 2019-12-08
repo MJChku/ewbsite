@@ -6,8 +6,7 @@ import { Parallax } from 'react-spring/renderprops-addons.cjs'
 import Layout from '../components/Layout'
 import { SiteTitle, MainWrapper } from '../components/Headings';
 import Footer from '../components/Footer';
-import Fire from '../firebase/sndLayout'
-import Firefetch from '../firebase/FetchingExample'
+import Resume from '../../static/me/resume.pdf'
 const Main = styled.main`
   max-width: 960px;
   margin: 50px auto;
@@ -24,7 +23,8 @@ export default class Index extends Component {
         <Layout {...this.props}>
           <MainWrapper>
               <Main>
-            <SiteTitle>Born in 1997, Boy, Cool hacker</SiteTitle>
+            <SiteTitle >Down my resume here</SiteTitle>
+            <a href="Resume" download>Click to download</a>
               </Main>
           </MainWrapper>
         </Layout>

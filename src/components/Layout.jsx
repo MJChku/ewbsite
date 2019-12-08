@@ -39,11 +39,11 @@ class Layout extends React.Component{
     const page = this.state.page;
     return (
       <>
-        <Helmet title="EWB"/>
+        <Helmet title="MJC"/>
         <SiteHeader>
           <Link to="/">
-            <Logo>EWB</Logo>
-            <Name> {page === "" ? "Education Without Barriers" : page}</Name>
+            <Logo>MJC</Logo>
+            <Name> {page === "" ? "Ma Jiacheng" : page}</Name>
           </Link>
           <SiteNav>
             <ul>
@@ -52,9 +52,7 @@ class Layout extends React.Component{
                   <Navhead>{page}</Navhead>
                 </li>
               ))}
-              <More>
-                {navigation.more}
-              </More>
+             <Link to="../../static/me/resume.pdf" target="_blank" download>Resume</Link>
             </ul>
 
           </SiteNav>
