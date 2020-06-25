@@ -1,6 +1,9 @@
 import React ,{ Component } from 'react'
 import styled from 'styled-components'
 import Resume from '../../static/me/resume.pdf'
+import HKUT from '../../static/me/resume.pdf'
+import ETHZT from '../../static/me/resume.pdf'
+import NUT from '../../static/me/resume.pdf'
 import { Parallax } from 'react-spring/renderprops-addons.cjs'
 // Components
 import Layout from '../components/Layout'
@@ -22,9 +25,11 @@ export default class Index extends Component {
         <Layout {...this.props}>
           <MainWrapper>
               <Main>
-            <SiteTitle >Download my resume here</SiteTitle>
-            <a href={Resume} download>Click to download</a>
-            
+            <SiteTitle >See My Docs Below</SiteTitle>
+            <a href={Resume} download>Resume in 2020</a>
+            <a href={HKUT} download>Transcript in The University of Hong Kong</a>
+            <a href={ETHZT} download>Transcript in ETHzurich</a>
+            <a href={NUT} download>Transcript in Northwestern University</a>    
               </Main>
           </MainWrapper>
         </Layout>
