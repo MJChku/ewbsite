@@ -1,9 +1,9 @@
 import React ,{ Component } from 'react'
 import styled from 'styled-components'
-import Resume from '../../static/me/resume.pdf'
-import HKUT from '../../static/me/resume.pdf'
-import ETHZT from '../../static/me/resume.pdf'
-import NUT from '../../static/me/resume.pdf'
+import Resume from '../../static/me/cv(10).pdf'
+import HKUT from '../../static/me/transcript.pdf'
+import ETHZT from '../../static/me/ETH_Transcript.pdf'
+import NUT from '../../static/me/NUT.pdf'
 import { Parallax } from 'react-spring/renderprops-addons.cjs'
 // Components
 import Layout from '../components/Layout'
