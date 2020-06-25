@@ -29,7 +29,7 @@ export default class Index extends Component {
           <back>
           <MainWrapper img={background}>
               <Main>
-            <SiteTitle>Born in 1997, Actuary, Hacker, Defender, Gamer, Youtuber a.k.a Peace lover.</SiteTitle>
+            <SiteTitle>This the personal site for many my resources...</SiteTitle>
               </Main>
           </MainWrapper>
           </back>
