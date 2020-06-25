@@ -1,6 +1,6 @@
 import React ,{ Component } from 'react'
 import styled from 'styled-components'
-import Resume from '../../static/me/cv(10).pdf'
+import Resume from '../../static/me/CV(10).pdf'
 import HKUT from '../../static/me/transcript.pdf'
 import ETHZT from '../../static/me/ETH_Transcript.pdf'
 import NUT from '../../static/me/NUT.pdf'
