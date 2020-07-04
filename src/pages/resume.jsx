@@ -26,10 +26,10 @@ export default class Index extends Component {
           <MainWrapper>
               <Main>
             <SiteTitle >See My Docs Below</SiteTitle>
-            <p href={Resume} download>Resume in 2020</p>
-            <p href={HKUT} download>Transcript in The University of Hong Kong</p>
-            <p href={ETHZT} download>Transcript in ETHzurich</p>
-            <p href={NUT} download>Transcript in Northwestern University</p>    
+            <p><a href={Resume} download>Resume in 2020</a> </p>
+            <p><a href={HKUT} download>Transcript in The University of Hong Kong</a></p>
+            <p><a href={ETHZT} download>Transcript in ETHzurich </a> </p>
+            <p><a href={NUT} download>Transcript in Northwestern University </a> </p>    
               </Main>
           </MainWrapper>
         </Layout>
