@@ -23,7 +23,7 @@ const navigation =
       // },
       {
         underline: "##FFD700",
-        head: { name: "Docs", link: "/resume" },
+        head: { name: "Some More to Say", link: "/some_more_to_say" },
         sub: []
       },
       // {
