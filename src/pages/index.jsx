@@ -32,7 +32,8 @@ export default class Index extends Component {
             {/* <SiteTitle>Born in 1997, Actuary, Hacker, Defender, Gamer, Youtuber a.k.a Peace lover.</SiteTitle>
              */}
              <SiteTitle>Fly Me To The Moon 
-               <br>--- cookie version. </SiteTitle>
+             --- cookie version. </SiteTitle>
+             <p>Please listen to the music "Fly Me To The Moon" when you view this site</p>
              <SiteTitle>  </SiteTitle>
               </Main>
           </MainWrapper>
