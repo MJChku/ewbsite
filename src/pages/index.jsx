@@ -33,7 +33,7 @@ export default class Index extends Component {
              */}
              <SiteTitle>Fly Me To The Moon 
              --- cookie version. </SiteTitle>
-             <p>Please listen to the music "Fly Me To The Moon" when you view this site</p>
+             <p>Please listen to the music "Fly Me To The Moon" by Joshua Radin when you view this site</p>
              <SiteTitle>  </SiteTitle>
               </Main>
           </MainWrapper>
