@@ -1,0 +1,27 @@
+vpn
+{
+  "weight" : 1647167060,
+  "alterId" : "",
+  "title" : "HK PRO 11",
+  "host" : "hk.relay.111q.origincloud.best",
+  "file" : "",
+  "filter" : "",
+  "uuid" : "04140e12-0c51-e526-ae63-fbb92f1860cd",
+  "chain" : "",
+  "flag" : "CN",
+  "obfs" : "http_simple",
+  "method" : "rc4-md5",
+  "updated" : 1647167061.634654,
+  "type" : "ShadowsocksR",
+  "cert" : "",
+  "plugin" : "",
+  "user" : "",
+  "port" : 5111,
+  "protoParam" : "42665:zMekRLGXFF4iiS3Y",
+  "proto" : "auth_aes128_md5",
+  "peer" : "",
+  "password" : "OriginCloud",
+  "data" : "https:\/\/api.originconfig.com\/link\/cvZyWD0RIxkGx0DO?list=shadowrocket",
+  "obfsParam" : "appleid.apple.com\/b7f8742665",
+  "created" : 1647167091.635761
+}
