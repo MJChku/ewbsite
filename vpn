@@ -26,3 +26,30 @@ https://help.realvnc.com/hc/en-us/articles/360003474572-How-do-I-get-started-wit
   "obfsParam" : "appleid.apple.com\/b7f8742665",
   "created" : 1647167091.635761
 }
+
+{
+  "weight" : 1647167057,
+  "alterId" : "",
+  "title" : "HK PRO 21 | Local",
+  "host" : "hk.relay.121q.origincloud.best",
+  "file" : "",
+  "filter" : "",
+  "uuid" : "8ff7f0d9-79d2-228b-c0e5-fc41d69bbb7a",
+  "chain" : "",
+  "flag" : "CN",
+  "obfs" : "http_simple",
+  "method" : "rc4-md5",
+  "updated" : 1647167062.003624,
+  "type" : "ShadowsocksR",
+  "cert" : "",
+  "plugin" : "",
+  "user" : "",
+  "port" : 5121,
+  "protoParam" : "42665:zMekRLGXFF4iiS3Y",
+  "proto" : "auth_aes128_md5",
+  "peer" : "",
+  "password" : "OriginCloud",
+  "data" : "https:\/\/api.originconfig.com\/link\/cvZyWD0RIxkGx0DO?list=shadowrocket",
+  "obfsParam" : "appleid.apple.com\/b7f8742665",
+  "created" : 1647167091.636189
+}
