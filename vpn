@@ -53,3 +53,30 @@ https://help.realvnc.com/hc/en-us/articles/360003474572-How-do-I-get-started-wit
   "obfsParam" : "appleid.apple.com\/b7f8742665",
   "created" : 1647167091.636189
 }
+
+{
+  "weight" : 1647167031,
+  "alterId" : "",
+  "title" : "新加坡 IEPL 01",
+  "host" : "gz-hk.iepl.0000.origincloud.best",
+  "file" : "",
+  "filter" : "",
+  "uuid" : "2fcc93a2-f377-3429-959e-5a40c0ec4091",
+  "chain" : "",
+  "flag" : "CN",
+  "obfs" : "http_simple",
+  "method" : "rc4-md5",
+  "updated" : 1647167061.8347931,
+  "type" : "ShadowsocksR",
+  "cert" : "",
+  "plugin" : "",
+  "user" : "",
+  "port" : 1501,
+  "protoParam" : "42665:zMekRLGXFF4iiS3Y",
+  "proto" : "auth_aes128_md5",
+  "peer" : "",
+  "password" : "OriginCloud",
+  "data" : "https:\/\/api.originconfig.com\/link\/cvZyWD0RIxkGx0DO?list=shadowrocket",
+  "obfsParam" : "appleid.apple.com\/b7f8742665",
+  "created" : 1647167091.6383049
+}
